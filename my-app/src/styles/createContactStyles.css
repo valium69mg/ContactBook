@@ -1,0 +1,50 @@
+
+.createContactContainer {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 12px 24px;
+    row-gap: 16px;
+    background-color: black;
+    width: 300px;
+    height: 70vh;
+    border-radius: 12px;
+}
+
+.createContactContainer input {
+    width: 70%;
+}
+
+
+.createContactContainer h1 {
+    text-align: center;
+    color: white;
+}
+
+.createContactContainer label {
+
+    color: white;
+}
+
+.createContactContainer button {
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+    padding: 6px 12px;
+    width: 50%;
+    align-self: center;
+}
+
+.createContactContainer button:hover {  
+    color:black;
+    background-color: white;
+    border: 1px solid black;
+    transition: all 0.5s ease;
+}
+
+.create  {
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+

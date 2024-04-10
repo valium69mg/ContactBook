@@ -1,0 +1,28 @@
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 60%;
+    margin-top: 80px;
+}
+
+.homeContainer p {
+    color: black;
+}
+.homeContainer h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 60px;
+}
+.homeContainer h2 {
+    color: gray;
+    font-size: 24px;
+}
+.feature {
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+    justify-content: left;
+    column-gap: 12px;
+}
